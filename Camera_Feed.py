@@ -92,7 +92,7 @@ while True:
         elif predicted_name != "Unknown" and key == 8:  # BACKSPACE pressed
             updated = close_most_recent_open_entry(csv_path, predicted_name, current_time)
             if updated:
-                print(f"👋 Exit logged for {predicted_name} at {current_time}")
+                print(f" Exit logged for {predicted_name} at {current_time}")
             else:
                 print(f"⚠️ No open entry found for {predicted_name} to exit.")
 
